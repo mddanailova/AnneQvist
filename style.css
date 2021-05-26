@@ -10,7 +10,7 @@ body {
 }
 /*Her starter styling til mobile*/
 /* Grid containter https://css-tricks.com/snippets/css/complete-guide-grid/*/
-/*Her opsættes grid layout */
+/*Her opsættes grid layout til mobile*/
 .maxmara-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -23,7 +23,7 @@ body {
     "product-g product-h"
     "product-i product-j";
 }
-/* Her styles hvert produkt*/
+/* Her styles hvert produkt til mobile*/
 .product-a {
   grid-area: product-a;
   background-color: turquoise;
@@ -66,4 +66,43 @@ body {
 }
 /* Her styles der til desktop */
 @media screen and (min-width: 667px) {
+  .maxmara-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "product-a product-b product-c product-d product-e"
+      "product-f product-g product-h product-i product-j";
+  }
+  /*Her styles hvert produkt til desktop*/
+  .product-a {
+    grid-area: product-a;
+  }
+  .product-b {
+    grid-area: product-b;
+  }
+  .product-c {
+    grid-area: product-c;
+  }
+  .product-d {
+    grid-area: product-d;
+  }
+  .product-e {
+    grid-area: product-e;
+  }
+  .product-f {
+    grid-area: product-f;
+  }
+  .product-g {
+    grid-area: product-g;
+  }
+  .product-h {
+    grid-area: product-h;
+  }
+  .product-i {
+    grid-area: product-i;
+  }
+  .product-j {
+    grid-area: product-j;
+  }
 }
