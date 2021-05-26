@@ -8,6 +8,7 @@ body {
 .maxmara-brand img {
   max-width: 100%;
 }
+/*Her starter styling til mobile*/
 /* Grid containter https://css-tricks.com/snippets/css/complete-guide-grid/*/
 /*Her opsættes grid layout */
 .maxmara-container {
@@ -62,4 +63,7 @@ body {
 .product-j {
   grid-area: product-j;
   background-color: rebeccapurple;
+}
+/* Her styles der til desktop */
+@media screen and (min-width: 667px) {
 }
