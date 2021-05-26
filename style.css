@@ -8,10 +8,13 @@ body {
 .maxmara-brand img {
   max-width: 100%;
 }
+/* Grid containter https://css-tricks.com/snippets/css/complete-guide-grid/*/
+/*Her opsættes grid layout */
 .maxmara-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  grid-gap: 1.8rem;
   grid-template-areas:
     "product-a"
     "product-b"
@@ -20,27 +23,28 @@ body {
     "product-e"
     "product-f";
 }
+/* Her styles hvert produkt*/
 .product-a {
   grid-area: product-a;
   background-color: turquoise;
 }
 .product-b {
   grid-area: product-b;
-  background-color: turquoise;
+  background-color: chocolate;
 }
 .product-c {
   grid-area: product-c;
-  background-color: turquoise;
+  background-color: darkblue;
 }
 .product-d {
   grid-area: product-d;
-  background-color: turquoise;
+  background-color: tan;
 }
 .product-e {
   grid-area: product-e;
-  background-color: turquoise;
+  background-color: rebeccapurple;
 }
 .product-f {
   grid-area: product-f;
-  background-color: turquoise;
+  background-color: lightcoral;
 }
