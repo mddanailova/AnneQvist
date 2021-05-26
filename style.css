@@ -8,3 +8,39 @@ body {
 .maxmara-brand img {
   max-width: 100%;
 }
+.maxmara-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "product-a"
+    "product-b"
+    "product-c"
+    "product-d"
+    "product-e"
+    "product-f";
+}
+.product-a {
+  grid-area: product-a;
+  background-color: turquoise;
+}
+.product-b {
+  grid-area: product-b;
+  background-color: turquoise;
+}
+.product-c {
+  grid-area: product-c;
+  background-color: turquoise;
+}
+.product-d {
+  grid-area: product-d;
+  background-color: turquoise;
+}
+.product-e {
+  grid-area: product-e;
+  background-color: turquoise;
+}
+.product-f {
+  grid-area: product-f;
+  background-color: turquoise;
+}
