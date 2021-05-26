@@ -12,16 +12,15 @@ body {
 /*Her opsættes grid layout */
 .maxmara-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 1.8rem;
+  grid-gap: 1rem;
   grid-template-areas:
-    "product-a"
-    "product-b"
-    "product-c"
-    "product-d"
-    "product-e"
-    "product-f";
+    "product-a product-b"
+    "product-c product-d"
+    "product-e product-f"
+    "product-g product-h"
+    "product-i product-j";
 }
 /* Her styles hvert produkt*/
 .product-a {
@@ -46,5 +45,21 @@ body {
 }
 .product-f {
   grid-area: product-f;
-  background-color: lightcoral;
+  background-color: turquoise;
+}
+.product-g {
+  grid-area: product-g;
+  background-color: chocolate;
+}
+.product-h {
+  grid-area: product-h;
+  background-color: darkblue;
+}
+.product-i {
+  grid-area: product-i;
+  background-color: tan;
+}
+.product-j {
+  grid-area: product-j;
+  background-color: rebeccapurple;
 }
