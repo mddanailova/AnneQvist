@@ -29,6 +29,7 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 .product-a {
   grid-area: product-a;
 }
+/* Produkterne skrives igen, men med img efter, så billedet kan styles*/
 .product-a img {
   max-width: 100%;
 }
