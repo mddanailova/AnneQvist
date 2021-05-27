@@ -9,7 +9,8 @@ body {
   max-width: 100%;
 }
 /*Her starter styling til mobile*/
-/* Grid containter https://css-tricks.com/snippets/css/complete-guide-grid/*/
+/* Grid containter https://css-tricks.com/snippets/css/complete-guide-grid/
+Har benyttet mig af deres guide til columns, rows og areas*/
 /*Her opsættes grid layout til mobile*/
 .maxmara-container {
   display: grid;
@@ -26,43 +27,63 @@ body {
 /* Her styles hvert produkt til mobile*/
 .product-a {
   grid-area: product-a;
-  background-color: turquoise;
+}
+.product-a img {
+  max-width: 100%;
 }
 .product-b {
   grid-area: product-b;
-  background-color: chocolate;
+}
+.product-b img {
+  max-width: 100%;
 }
 .product-c {
   grid-area: product-c;
-  background-color: darkblue;
+}
+.product-c img {
+  max-width: 100%;
 }
 .product-d {
   grid-area: product-d;
-  background-color: tan;
+}
+.product-d img {
+  max-width: 100%;
 }
 .product-e {
   grid-area: product-e;
-  background-color: rebeccapurple;
+}
+.product-e img {
+  max-width: 100%;
 }
 .product-f {
   grid-area: product-f;
-  background-color: turquoise;
+}
+.product-f img {
+  max-width: 100%;
 }
 .product-g {
   grid-area: product-g;
-  background-color: chocolate;
+}
+.product-g img {
+  max-width: 100%;
 }
 .product-h {
   grid-area: product-h;
-  background-color: darkblue;
+}
+.product-h img {
+  max-width: 100%;
 }
 .product-i {
   grid-area: product-i;
-  background-color: tan;
+}
+.product-i img {
+  max-width: 100%;
 }
 .product-j {
   grid-area: product-j;
-  background-color: rebeccapurple;
+}
+.product-j img {
+  max-width: 100%;
 }
 /* Her styles der til desktop */
 @media screen and (min-width: 667px) {
