@@ -13,10 +13,11 @@ body {
 Har benyttet mig af deres guide til columns, rows og areas*/
 /*Her opsættes grid layout til mobile*/
 .maxmara-container {
+  margin: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 1rem;
+  grid-gap: 0.5rem;
   grid-template-areas:
     "product-a product-b"
     "product-c product-d"
