@@ -38,7 +38,8 @@ https://css-tricks.com/snippets/css/complete-guide-grid/*/
 }
 
 /* Her under starter stylingen af de forskellige classes på galleriet
-Hver class er blevet stylet for sig, mens deres indeholdte billede er stylet hver for sig */
+Hver class er blevet stylet for sig, mens deres indeholdte billede er stylet hver for sig 
+Deruover er der også blevet tilføjet billedtekst*/
 .product1 {
   grid-area: "product1";
   margin-bottom: 2rem;
@@ -301,7 +302,7 @@ p {
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
+    margin-top: 5rem;
     grid-template-columns: 1fr 1fr 1fr;  
     grid-template-rows: auto;
     grid-gap: 8%;  
