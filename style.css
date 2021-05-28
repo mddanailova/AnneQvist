@@ -7,37 +7,127 @@
   background-color: #f7efeb;  
 }
 
+/* Herfra startes stylingen af MOBILE-FIRST*/
 .brands img{
-  max-width: 200%;
-  margin-bottom: 5rem;
+  max-width: 80%;
+  margin-bottom: 3rem;
+
+/* Nedestående (linje 16-18) er styling af brands, som gør at billederne placeres i midten af siden.
+Kilden er fundet fra W3's hjemmeside (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_center) */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Herfra startes stylingen af galleri-grid.
+Informationerne er taget med inspiration fra nedenstående link.
+https://css-tricks.com/snippets/css/complete-guide-grid/*/
 .gallery {
-
-  grid-template-areas: 
-    "product1", "product2",
-    "product3", "product4",
-    "product5", "product6",
-    "product7", "product8",
-    "product9", "product10",
-    "product11", "product12",
-    "product13", "product14";
-}
-
-.grid-item {
-  display: grid;
-  grid-template-columns: 1pr, 1pr;
+  margin: 1rem;   /* Margin definerer afstanden rundt om hele galleriet*/
+  display: grid;  
+  grid-template-columns: 1fr 1fr;  /* "1fr" fortæller hvor mange kolonner der skal være */
   grid-template-rows: auto;
+  grid-gap: 0.5rem;  /* Afstanden mellem kolonnerne */
+  grid-template-areas:   /* Her placerer man de forskllige classes ift. gridet - hvilke der skal stå hvor osv. */
+    "product1 product2",
+    "product3 product4",
+    "product5 product6",
+    "product7 product8",
+    "product9 product10",
+    "product11 product12";
 }
 
-.grid-item img {
+/* Her under starter stylingen af de forskellige classes på galleriet
+Hver class er blevet stylet for sig, mens deres indeholdte billede er stylet hver for sig */
+.product1 {
+  grid-area: "product1";
+}
+.product1 img {
+  max-width: 100%;
+}
+
+.product2 {
+  grid-area: "product2";
+}
+.product2 img {
+  max-width: 100%;
+}
+
+.product3 {
+  grid-area: "product3";
+}
+.product3 img {
+  max-width: 100%;
+}
+
+.product4 {
+  grid-area: "product4";
+}
+.product4 img {
+  max-width: 100%;
+}
+
+.product5 {
+  grid-area: "product5";
+}
+.product5 img {
+  max-width: 100%;
+}
+
+.product6 {
+  grid-area: "product6";
+}
+.product6 img {
+  max-width: 100%;
+}
+
+.product7 {
+  grid-area: "product7";
+}
+.product7 img {
+  max-width: 100%;
+}
+
+.product8 {
+  grid-area: "product8";
+}
+.product8 img {
+  max-width: 100%;
+}
+
+.product9 {
+  grid-area: "product9";
+}
+.product9 img {
+  max-width: 100%;
+}
+
+.product10 {
+  grid-area: "product10";
+}
+.product10 img {
+  max-width: 100%;
+}
+
+.product11 {
+  grid-area: "product11";
+}
+.product11 img {
+  max-width: 100%;
+}
+
+.product12 {
+  grid-area: "product12";
+}
+.product12 img {
   max-width: 100%;
 }
 
 
 
-
+/* Her starter stylingen af footeren */
 /* Create three equal columns that floats next to each other */
+
 .row {
   display: flex;
   width: 100%;
@@ -54,6 +144,118 @@ p {
   margin-left: 30%;
 }
 
+
+/* Herfra startes stylingen af DESKTOP*/
+
+@media screen and (min-width: 667px) {
+  .brands img{
+    max-width: 80%;
+    margin-bottom: 3rem; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gallery {
+    margin: 1rem;  
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+    grid-template-rows: auto;
+    grid-gap: 0.5rem;  
+    grid-template-areas:   
+      "product1 product2 product3 product4 product5",
+      "product6 product7 product8 product9 product10",
+      "product11 product12";
+  }
+
+  .product1 {
+    grid-area: "product1";
+  }
+  .product1 img {
+    max-width: 100%;
+  }
+  
+  .product2 {
+    grid-area: "product2";
+  }
+  .product2 img {
+    max-width: 100%;
+  }
+  
+  .product3 {
+    grid-area: "product3";
+  }
+  .product3 img {
+    max-width: 100%;
+  }
+  
+  .product4 {
+    grid-area: "product4";
+  }
+  .product4 img {
+    max-width: 100%;
+  }
+  
+  .product5 {
+    grid-area: "product5";
+  }
+  .product5 img {
+    max-width: 100%;
+  }
+  
+  .product6 {
+    grid-area: "product6";
+  }
+  .product6 img {
+    max-width: 100%;
+  }
+  
+  .product7 {
+    grid-area: "product7";
+  }
+  .product7 img {
+    max-width: 100%;
+  }
+  
+  .product8 {
+    grid-area: "product8";
+  }
+  .product8 img {
+    max-width: 100%;
+  }
+  
+  .product9 {
+    grid-area: "product9";
+  }
+  .product9 img {
+    max-width: 100%;
+  }
+  
+  .product10 {
+    grid-area: "product10";
+  }
+  .product10 img {
+    max-width: 100%;
+  }
+  
+  .product11 {
+    grid-area: "product11";
+  }
+  .product11 img {
+    max-width: 100%;
+  }
+  
+  .product12 {
+    grid-area: "product12";
+  }
+  .product12 img {
+    max-width: 100%;
+  }
+
+  
+}
+
+
 /* Gør instagram billederne responsive og "stacker" dem under hinanden*/
   @media screen and (max-width: 860px) {
     .column {
@@ -65,3 +267,7 @@ p {
      flex-direction: column;
     }
   }
+
+
+
+
