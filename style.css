@@ -148,18 +148,49 @@ p {
 /* Herfra startes stylingen af DESKTOP*/
 
 @media screen and (min-width: 667px) {
-  .brands img{
+  .brands {
     max-width: 80%;
     margin-bottom: 3rem; 
-    display: block;
+  
+    /* Sammenlignet med mobil-versionen, skal brandsene gå fra at stå under hinanden, til ved siden af hinanden
+    Derfor er der i Media Queries blevet placeret endnu et grid, men til brandsene*/
+    display: grid;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-rows: auto;
+    grid-gap: 8%;  
+    grid-template-areas:   
+      "persona maxmara piupiu";
   }
 
+  .persona {
+    grid-area: "persona";
+  }
+  .persona img {
+    max-width: 100%;
+  }
+  
+  .maxmara {
+    grid-area: "maxmara";
+  }
+  .maxmara img {
+    max-width: 100%;
+  }
+  
+  .piupiu {
+    grid-area: "piupiu";
+  }
+  .piupiu img {
+    max-width: 100%;
+  }
+
+  /* Her starter galleri-stylingen endnu engang, men forbedret til desktop*/
   .gallery {
     margin: 1rem;  
     display: grid;  
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  /* I stedet for 3 kolonner, er der nu 5 kolonner*/
     grid-template-rows: auto;
     grid-gap: 0.5rem;  
     grid-template-areas:   
@@ -170,86 +201,230 @@ p {
 
   .product1 {
     grid-area: "product1";
+    margin-bottom: 2rem;
   }
   .product1 img {
     max-width: 100%;
   }
+  .product1 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product1 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product2 {
     grid-area: "product2";
+    margin-bottom: 2rem;
   }
   .product2 img {
     max-width: 100%;
   }
+  .product2 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product2 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product3 {
     grid-area: "product3";
+    margin-bottom: 2rem;
   }
   .product3 img {
     max-width: 100%;
   }
+  .product3 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product3 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product4 {
     grid-area: "product4";
+    margin-bottom: 2rem;
   }
   .product4 img {
     max-width: 100%;
   }
+  .product4 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product4 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product5 {
     grid-area: "product5";
+    margin-bottom: 2rem;
   }
   .product5 img {
     max-width: 100%;
   }
+  .product5 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product5 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product6 {
     grid-area: "product6";
+    margin-bottom: 2rem;
   }
   .product6 img {
     max-width: 100%;
   }
+  .product6 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product6 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product7 {
     grid-area: "product7";
+    margin-bottom: 2rem;
   }
   .product7 img {
     max-width: 100%;
   }
+  .product7 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product7 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product8 {
     grid-area: "product8";
+    margin-bottom: 2rem;
   }
   .product8 img {
     max-width: 100%;
   }
+  .product8 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product8 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product9 {
     grid-area: "product9";
+    margin-bottom: 2rem;
   }
   .product9 img {
     max-width: 100%;
   }
+  .product9 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product9 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product10 {
     grid-area: "product10";
+    margin-bottom: 2rem;
   }
   .product10 img {
     max-width: 100%;
   }
+  .product10 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product10 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product11 {
     grid-area: "product11";
+    margin-bottom: 2rem;
   }
   .product11 img {
     max-width: 100%;
   }
+  .product11 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product11 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+  }
   
   .product12 {
     grid-area: "product12";
+    margin-bottom: 2rem;
   }
   .product12 img {
     max-width: 100%;
+  }
+  .product12 h2 {
+    margin-top: 0.2rem;
+    color: #d9b0a7;
+    font-size: 20px;
+  }
+  .product12 h3 {
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
   }
 
   
