@@ -1,13 +1,32 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7efeb;
 }
+
+/*BILLEDE STYLING*/
 
 .billedeet {
   text-align: center;
 }
 
+.midtbillede {
+  position: relative;
+
+  z-index:-1;
+}
+
+/*TEKST STYLING*/
+
 h1 {
   margin-left: 10%;
+}
+
+.tekst {
+  background-image: url(billeder/mellem.jpg);
+  background-repeat: no-repeat;
+  background-size: 24% auto;
+  background-position: 75% 35%;
 }
 
 #tekstet {
@@ -22,17 +41,22 @@ h1 {
   margin-left: 35%;
 }
 
+/*INSTAGRAM BILLEDER STYLING*/
+
 #insta {
   text-align: center;
   margin-left: 0%;
   margin-top: 4%;
 }
 
-/* Create three equal columns that floats next to each other */
 .row {
   display: flex;
   width: 70%;
   margin-left: 15%;
+}
+
+.row img {
+  border: 1px solid black;
 }
 
 .column {
@@ -41,7 +65,46 @@ h1 {
   text-align: center;
 }
 
-/* Gør instagram billederne responsive og "stacker" dem under hinanden*/
+/*FOOTER STYLING*/
+
+footer {
+  border: 2px solid black;
+  margin: 5px 5px 10px 5px;
+  background-color: white;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+p {
+  text-align: left;
+  margin-left: 20%;
+}
+
+.rowfooter {
+  display: flex;
+  width: 100%;
+}
+
+.columnfooter {
+  flex: 33.33%;
+}
+
+h2 {
+  text-align: left;
+  margin: 2% 0 5% 20%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  line-height: 2.5;
+  margin-left: 19%;
+}
+
+/*RESPONSIV DESIGN FOR ALLE ELEMENTER*/
+
   @media screen and (max-width: 860px) {
     .column {
     width: 100%;
@@ -62,4 +125,13 @@ h1 {
       width: 70%;
       text-align: justify;
       margin-left: 10%;
+    }
+
+    .columnfooter {
+    width: 100%;
+    }
+
+    .rowfooter {
+      display: flex;
+     flex-direction: column;
     }
