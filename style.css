@@ -277,3 +277,12 @@ footer {
     iframe{
         padding: 5%;
     }
+
+    .columnfooter {
+        width: 100%;
+    }
+    
+    .rowfooter {
+        display: flex;
+        flex-direction: column;
+    }
