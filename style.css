@@ -214,6 +214,45 @@ body{
         padding: 4%;
     }
 
+
+    /*FOOTER STYLING*/
+
+footer {
+    border: 2px solid black;
+    margin: 5px 5px 10px 5px;
+    background-color: white;
+  }
+  
+  footer img {
+    vertical-align: middle;
+  }
+  
+  p {
+    text-align: left;
+    margin-left: 20%;
+  }
+  
+  .rowfooter {
+    display: flex;
+    width: 100%;
+  }
+  
+  .columnfooter {
+    flex: 33.33%;
+  }
+  
+  h2 {
+    text-align: left;
+    margin: 2% 0 5% 20%;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    line-height: 2.5;
+    margin-left: 19%;
+  }
+
     
        /* Responsive layout - makes a one column-layout instead of a two-column layout */
   @media (max-width: 800px) {
