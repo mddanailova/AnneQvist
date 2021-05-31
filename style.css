@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: ;
+}
+
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-color: #f7efeb;
+    margin: 0;
+}
+
+
+.Heading{
+    margin-left: 10%;
+    font-family: 'tinos', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+.Heading2{
+    margin-top:5%;
+    margin-left: 5%;
+    font-family: 'tinos', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.p1{
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.p2{
+    letter-spacing: 1.5px;
+    margin-top: 5%;
+    margin-left: 10%;
+    line-height: 150%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p3{
+    letter-spacing: 1.5px;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p4{
+    letter-spacing: 1.5px;
+    margin-left: 5%;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item-left {
+    background-color: #f7efeb;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: #f7efeb;
+    flex: 50%;
+    margin-right: 8%;
+  }
+
+  form{
+      margin-left: 8%;
+  }
+  
+  label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+
+
+ input[type=text], textarea {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #D4d0db;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical; 
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 0px 8px 15px #b7b4bd;  
+      }
+      
+      input[type=submit] {
+        height: 45px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 8px 15px #b7b4bd;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        
+      }
+      
+      input[type=submit]:hover {
+        background-color: none;
+        box-shadow: 0px 15px 20px #e6c4ba;
+        transform: translateY(-7px);
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: none;
+        padding: 20px;
+      }
+
+    /* https://www.youtube.com/watch?v=R_-oGJBg3nw  
+    Youtube video er her brugt til at lave en funktionel cookiepolitik(banner) som popper op når man indlæser siden,
+    til dette er der lavet to knapper, hvor man kan acceptere eller afvise. Html sørger for at indlæse indholdet
+    dvs. containeren med knapper. Css styler elementer, dvs. teskten, containeren samt knapperne og Javescriptet 
+    sørger for, at containeren kommer frem efter to sekunder og forsvinder igen når man klikker på accepterer.
+    */
+
+    .cookie-container{
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        right: 0;
+        background: #e6c4ba;
+        color: black;
+        padding: 0 32px;
+        transition: 400ms;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid black; 
+    }
+
+    .cookie-container a{
+        color: black;
+    }
+
+    .cookie-container.active{
+        bottom: 0;
+    }
+
+    .cookie-btn1{
+        height: 35px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: 20px;
+    }
+
+    .cookie-btn1:hover {
+        background-color: none;
+        box-shadow: 0px 15px 20px red;
+        transform: translateY(-7px);
+      }
+
+    .cookie-btn2{
+        height: 35px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        margin-bottom: 20px;
+        margin: 10px;
+    }
+
+    .cookie-btn2:hover {
+        background-color: none;
+        box-shadow: 0px 15px 20px rgb(48, 214, 48);
+        transform: translateY(-7px);
+      }
+
+    iframe{
+        width: 100%;
+        padding: 4%;
+    }
+
+    
+       /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container{
+      flex-direction: column;
+    }
+
+    .Heading2{
+        margin-top: 20%;
+        margin-left: 11%;
+    }
+
+    .p2{
+        margin-top: 12%;
+
+    }
+
+    .p4{
+        margin-left: 11%;
+    }
+
+    iframe{
+        padding: 5%;
+    }
