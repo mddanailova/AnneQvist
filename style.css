@@ -218,9 +218,10 @@ body{
  /*FOOTER STYLING*/
 
 footer {
+    font-family: 'Roboto', sans-serif;
     border: 2px solid black;
     margin: 5px 5px 10px 5px;
-    background-color: white;
+    background-color: #f7efeb;
   }
   
   footer img {
@@ -228,6 +229,7 @@ footer {
   }
   
   p {
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     margin-left: 20%;
   }
@@ -242,6 +244,7 @@ footer {
   }
   
   h2 {
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     margin: 2% 0 5% 20%;
   }
