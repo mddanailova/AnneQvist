@@ -249,25 +249,6 @@ Deruover er der også blevet tilføjet billedtekst*/
   text-align: left;
 }
 
-.product12 {
-  grid-area: "product12";
-  margin-bottom: 2rem;
-}
-.product12 img {
-  max-width: 100%;
-}
-.product12 h2 {
-  margin-top: 0.2rem;
-  color: #d9b0a7;
-  font-size: 20px;
-}
-.product12 h3 {
-  color: rgb(75, 75, 75);
-  font-size: 14px;
-  font-weight: 100;
-  text-align: left;
-}
-
 
 
 /* Her starter stylingen af footeren */
@@ -547,25 +528,6 @@ p {
     font-size: 20px;
   }
   .product11 h3 {
-    color: rgb(75, 75, 75);
-    font-size: 14px;
-    font-weight: 100;
-    text-align: left;
-  }
-  
-  .product12 {
-    grid-area: "product12";
-    margin-bottom: 2rem;
-  }
-  .product12 img {
-    max-width: 100%;
-  }
-  .product12 h2 {
-    margin-top: 0.2rem;
-    color: #d9b0a7;
-    font-size: 20px;
-  }
-  .product12 h3 {
     color: rgb(75, 75, 75);
     font-size: 14px;
     font-weight: 100;
