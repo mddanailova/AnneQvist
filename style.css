@@ -7,7 +7,8 @@
 
 
 body{
-    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7efeb;
     margin: 0;
     padding: 0;
 }
@@ -28,7 +29,7 @@ body{
 
 .Heading2{
     margin-top:5%;
-    margin-left: 5%;
+    margin-left: 4.5%;
     font-family: 'tinos', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -58,7 +59,7 @@ body{
 
 .p4{
     letter-spacing: 1.5px;
-    margin-left: 5%;
+    margin-left: 4.5%;
     margin-top: 1%;
     font-family: 'Roboto', sans-serif;
 }
@@ -181,7 +182,6 @@ body{
 
     .cookie-btn1:hover {
         background-color: none;
-        box-shadow: 0px 15px 20px red;
         transform: translateY(-7px);
       }
 
@@ -205,22 +205,104 @@ body{
 
     .cookie-btn2:hover {
         background-color: none;
-        box-shadow: 0px 15px 20px rgb(48, 214, 48);
         transform: translateY(-7px);
       }
+
+    .p6{
+        margin-left: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .links{
+        margin-left: 0;
+        line-height: 100%;
+    }
 
     iframe{
         width: 100%;
         padding: 4%;
     }
 
+    .Heading3{
+        margin-top: 5%;
+        margin-left: 20%;
+        font-family: 'tinos', serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    input[type=tilmeld] {
+        height: 45px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        font-weight: 500;
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 8px 15px #b7b4bd;
+        transition: all 0.3s ease 0s;
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+        margin-left: -17%;
+        margin-top: 9.5%;
+        
+        
+    }
+
+    input[type=mail], #email {
+        width: 50%;
+        padding: 12px;
+        border: 2px solid #D4d0db;
+        border-radius: 10px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical; 
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 0px 8px 15px #b7b4bd;
+        margin-top: 7.5%; 
+        margin-right: 20%;
+      }
+
+    input[type=tilmeld]:hover {
+        background-color: none;
+        box-shadow: 0px 15px 20px #e6c4ba;
+        transform: translateY(-7px);
+      }
+
+    .news-container{
+        display: flex;
+        padding: 0 0 30px 30px;
+        left: 0;
+        right: 0;
+        background: #D4d0db;
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        border: 1px solid black;
+    }
+
+    .indhold{
+        flex: 33.33%;
+    }
+
+    .p5{
+        letter-spacing: 1.5px;
+        margin-left: 20%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+
 
  /*FOOTER STYLING*/
 
 footer {
     font-family: 'Roboto', sans-serif;
-    border: 2px solid black;
-    margin: 5px 5px 10px 5px;
     background-color: #f7efeb;
   }
   
@@ -243,10 +325,12 @@ footer {
     flex: 33.33%;
   }
   
-  h2 {
-    font-family: 'Roboto', sans-serif;
+  .Heading4 {
+    font-family: 'tinos', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     text-align: left;
-    margin: 2% 0 5% 20%;
+    margin: 5% 0 5% 20%;
   }
   
   a {
@@ -254,6 +338,7 @@ footer {
     color: black;
     line-height: 2.5;
     margin-left: 19%;
+    font-family: 'Roboto', sans-serif;
   }
 
     
@@ -263,9 +348,18 @@ footer {
       flex-direction: column;
     }
 
+    .news-container{
+        flex-direction: column;
+    }
+
     .Heading2{
         margin-top: 20%;
         margin-left: 11%;
+    }
+
+    .Heading3{
+        margin-left: 4%;
+        margin-top: 10%;
     }
 
     .p2{
@@ -277,11 +371,30 @@ footer {
         margin-left: 11%;
     }
 
+    .p5{
+        margin-left: 4%;
+        letter-spacing: 1.5px;
+    }
+
+    .p6{
+        margin-top: 5%;
+    }
+
+    .cookie-btn1{
+        margin-top: 5%;
+    }
+
+    input[type=mail], #email {
+        width: 60%;
+        margin-left: -5%; 
+      }
+
     iframe{
         padding: 5%;
     }
 
     .columnfooter {
+        margin-top: 5%;
         width: 100%;
     }
     
