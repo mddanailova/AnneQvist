@@ -1,10 +1,13 @@
+/* Font importeret fra googlefonts, som et alternativ til vores overskrifter
+på siden*/
+
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
 *{
     box-sizing: border-box;
-    font-family: ;
 }
 
+/* Styling af body */
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -13,11 +16,7 @@ body{
     padding: 0;
 }
 
-.background{
-    background-color: #f7efeb;
-    margin: 0;
-}
-
+/* Styling af overskrifter*/
 
 .Heading{
     margin-left: 10%;
@@ -34,6 +33,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+/* Styling af teksten på siden */ 
 
 .p1{
     margin-left: 10%;
@@ -64,6 +65,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Styling af flex-container som gør at elementer ligger vandret
+i to seperate diver */ 
+
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -72,229 +76,256 @@ body{
 .flex-item-left {
     background-color: #f7efeb;
     flex: 50%;
-  }
+}
   
-  .flex-item-right {
+.flex-item-right {
     background-color: #f7efeb;
     flex: 50%;
     margin-right: 8%;
-  }
+}
 
-  form{
-      margin-left: 8%;
-  }
-  
-  label{
+/* Styling af kontaktformular 
+https://www.w3schools.com/howto/howto_css_contact_form.asp*/ 
+
+form{
+    margin-left: 8%;
+}
+
+
+label{
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
     letter-spacing: 2.5px;
     text-transform: uppercase;
-  }
+}
 
+/* Styling af textfelter */
 
- input[type=text], textarea {
-        width: 100%;
-        padding: 12px;
-        border: 2px solid #D4d0db;
-        border-radius: 10px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical; 
-        font-family: 'Roboto', sans-serif;
-        box-shadow: 0px 8px 15px #b7b4bd;  
-      }
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #D4d0db;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 8px 15px #b7b4bd;  
+}
+
+/* Styling af knap*/
+
+input[type=submit] {
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px #b7b4bd;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
       
-      input[type=submit] {
-        height: 45px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        font-weight: 500;
-        color: #000;
-        background-color: #fff;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0px 8px 15px #b7b4bd;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-        outline: none;
-        
-      }
-      
-      input[type=submit]:hover {
-        background-color: none;
-        box-shadow: 0px 15px 20px #e6c4ba;
-        transform: translateY(-7px);
-      }
-      
-      .container {
-        border-radius: 5px;
-        background-color: none;
-        padding: 20px;
-      }
+input[type=submit]:hover {
+    background-color: none;
+    box-shadow: 0px 15px 20px #e6c4ba;
+    transform: translateY(-7px);
+}
 
-    /* https://www.youtube.com/watch?v=R_-oGJBg3nw  
-    Youtube video er her brugt til at lave en funktionel cookiepolitik(banner) som popper op når man indlæser siden,
-    til dette er der lavet to knapper, hvor man kan acceptere eller afvise. Html sørger for at indlæse indholdet
-    dvs. containeren med knapper. Css styler elementer, dvs. teskten, containeren samt knapperne og Javescriptet 
-    sørger for, at containeren kommer frem efter to sekunder og forsvinder igen når man klikker på accepterer.
-    */
+/* Styling af container */
 
-    .cookie-container{
-        position: fixed;
-        bottom: -100%;
-        left: 0;
-        right: 0;
-        background: #e6c4ba;
-        color: black;
-        padding: 0 32px;
-        transition: 400ms;
-        font-family: 'Roboto', sans-serif;
-        border: 1px solid black; 
+.container {
+    border-radius: 5px;
+    background-color: none;
+    padding: 20px;
+}
+
+/* https://www.youtube.com/watch?v=R_-oGJBg3nw  
+Youtube video er her brugt til at lave en funktionel cookiepolitik(banner) som popper op når man indlæser siden,
+til dette er der lavet to knapper, hvor man kan acceptere eller afvise. Html sørger for at indlæse indholdet
+dvs. containeren med knapper. Css styler elementer, dvs. teskten, containeren samt knapperne og Javescriptet 
+sørger for, at containeren kommer frem efter to sekunder og forsvinder igen når man klikker på accepterer.*/
+
+/* Styling af container */
+
+.cookie-container{
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #e6c4ba;
+    color: black;
+    padding: 0 32px;
+    transition: 400ms;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black; 
+}
+
+.cookie-container a{
+    color: black;
+}
+
+.cookie-container.active{
+    bottom: 0;
+}
+
+/* Styling af knapper */
+
+.cookie-btn1{
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.cookie-btn1:hover {
+    background-color: none;
+    transform: translateY(-7px);
+}
+
+.cookie-btn2{
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 20px;
+    margin: 10px;
     }
 
-    .cookie-container a{
-        color: black;
-    }
+.cookie-btn2:hover {
+    background-color: none;
+    transform: translateY(-7px);
+}
 
-    .cookie-container.active{
-        bottom: 0;
-    }
+/* Styling af tekst i container*/
 
-    .cookie-btn1{
-        height: 35px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        font-weight: 500;
-        color: #000;
-        background-color: #fff;
-        border: none;
-        border-radius: 10px;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-        outline: none;
-        margin-bottom: 20px;
-    }
+.p6{
+    margin-left: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 
-    .cookie-btn1:hover {
-        background-color: none;
-        transform: translateY(-7px);
-      }
+/* Styling af links i container */
 
-    .cookie-btn2{
-        height: 35px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        font-weight: 500;
-        color: #000;
-        background-color: #fff;
-        border: none;
-        border-radius: 10px;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-        outline: none;
-        margin-bottom: 20px;
-        margin: 10px;
-    }
+.links{
+    margin-left: 0;
+    line-height: 100%;
+}
 
-    .cookie-btn2:hover {
-        background-color: none;
-        transform: translateY(-7px);
-      }
+/* Styling af google maps */ 
 
-    .p6{
-        margin-left: 0;
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
+iframe{
+    width: 100%;
+    padding: 4%;
+}
 
-    .links{
-        margin-left: 0;
-        line-height: 100%;
-    }
+/* Styling af overskrift til news-container */
 
-    iframe{
-        width: 100%;
-        padding: 4%;
-    }
+.Heading3{
+    margin-top: 5%;
+    margin-left: 20%;
+    font-family: 'tinos', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
-    .Heading3{
-        margin-top: 5%;
-        margin-left: 20%;
-        font-family: 'tinos', serif;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
+/* Styling af knap */ 
 
-    input[type=tilmeld] {
-        height: 45px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        font-weight: 500;
-        color: #000;
-        background-color: #fff;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0px 8px 15px #b7b4bd;
-        transition: all 0.3s ease 0s;
-        cursor: pointer;
-        outline: none;
-        text-align: center;
-        margin-left: -17%;
-        margin-top: 9.5%;
-        
-        
-    }
+input[type=tilmeld] {
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px #b7b4bd;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+    margin-left: -17%;
+    margin-top: 9.5%;
+}
 
-    input[type=mail], #email {
-        width: 50%;
-        padding: 12px;
-        border: 2px solid #D4d0db;
-        border-radius: 10px;
-        box-sizing: border-box;
-        margin-top: 6px;
-        margin-bottom: 16px;
-        resize: vertical; 
-        font-family: 'Roboto', sans-serif;
-        box-shadow: 0px 8px 15px #b7b4bd;
-        margin-top: 7.5%; 
-        margin-right: 20%;
-      }
+/* Styling af tekstfelt */ 
 
-    input[type=tilmeld]:hover {
-        background-color: none;
-        box-shadow: 0px 15px 20px #e6c4ba;
-        transform: translateY(-7px);
-      }
+input[type=mail], #email {
+    width: 50%;
+    padding: 12px;
+    border: 2px solid #D4d0db;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 8px 15px #b7b4bd;
+    margin-top: 7.5%; 
+    margin-right: 20%;
+}
 
-    .news-container{
-        display: flex;
-        padding: 0 0 30px 30px;
-        left: 0;
-        right: 0;
-        background: #D4d0db;
-        color: black;
-        font-family: 'Roboto', sans-serif;
-        border: 1px solid black;
-    }
+input[type=tilmeld]:hover {
+    background-color: none;
+    box-shadow: 0px 15px 20px #e6c4ba;
+    transform: translateY(-7px);
+}
 
-    .indhold{
-        flex: 33.33%;
-    }
+/* Styling af container */ 
 
-    .p5{
-        letter-spacing: 1.5px;
-        margin-left: 20%;
-        font-family: 'Roboto', sans-serif;
-    }
+.news-container{
+    display: flex;
+    padding: 0 0 30px 30px;
+    left: 0;
+    right: 0;
+    background: #D4d0db;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+}
+
+/* Indholdet flexer, så de står ved siden af hinanden */ 
+
+.indhold{
+    flex: 33.33%;
+}
+
+/* Styling af tekst i container */ 
+
+.p5{
+    letter-spacing: 1.5px;
+    margin-left: 20%;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
@@ -304,28 +335,28 @@ body{
 footer {
     font-family: 'Roboto', sans-serif;
     background-color: #f7efeb;
-  }
+}
   
-  footer img {
+footer img {
     vertical-align: middle;
-  }
+}
   
-  p {
+p {
     font-family: 'Roboto', sans-serif;
     text-align: left;
     margin-left: 20%;
-  }
+}
   
   .rowfooter {
     display: flex;
     width: 100%;
-  }
+}
   
-  .columnfooter {
+.columnfooter {
     flex: 33.33%;
-  }
+}
   
-  .Heading4 {
+.Heading4 {
     font-family: 'tinos', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -333,16 +364,19 @@ footer {
     margin: 5% 0 5% 20%;
   }
   
-  a {
+a {
     text-decoration: none;
     color: black;
     line-height: 2.5;
     margin-left: 19%;
     font-family: 'Roboto', sans-serif;
-  }
+}
 
     
-       /* Responsive layout - makes a one column-layout instead of a two-column layout */
+/* Responsive layout - laver et kolonnelayout istedet for et layout med to kolloner 
+Elementer bliver stylet til mobile-version. 
+https://www.w3schools.com/css/css3_flexbox_responsive.asp */
+
   @media (max-width: 800px) {
     .flex-container{
       flex-direction: column;
