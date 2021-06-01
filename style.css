@@ -157,6 +157,22 @@ Har benyttet mig af deres guide til columns, rows og areas*/
     text-align: left;
     margin-left: 20%;
   }
+  /*FOOTER STYLING*/
+
+  footer {
+    font-family: "Roboto", sans-serif;
+    background-color: #f7efeb;
+  }
+
+  footer img {
+    vertical-align: middle;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    margin-left: 20%;
+  }
 
   .rowfooter {
     display: flex;
@@ -165,5 +181,21 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 
   .columnfooter {
     flex: 33.33%;
+  }
+
+  .Heading4 {
+    font-family: "tinos", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 5% 0 5% 20%;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    line-height: 2.5;
+    margin-left: 19%;
+    font-family: "Roboto", sans-serif;
   }
 }
