@@ -105,3 +105,51 @@ nav {
   text-align: center;
   margin-bottom: 0.5%;
 }
+
+/*FOOTER STYLING*/
+
+footer {
+  border: 2px solid black;
+  margin: 5px 5px 10px 5px;
+  background-color: white;
+}
+
+footer img {
+  vertical-align: middle;
+}
+
+p {
+  text-align: left;
+  margin-left: 20%;
+}
+
+.rowfooter {
+  display: flex;
+  width: 100%;
+}
+
+.columnfooter {
+  flex: 33.33%;
+}
+
+h2 {
+  text-align: left;
+  margin: 2% 0 5% 20%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  line-height: 2.5;
+  margin-left: 19%;
+}
+
+@media screen and (max-width: 860px) {
+.columnfooter {
+width: 100%;
+}
+
+.rowfooter {
+  display: flex;
+ flex-direction: column;
+}
