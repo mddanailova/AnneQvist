@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  background-color: #f4efeb;
 }
 
 /*HEADER STYLING*/
@@ -16,6 +17,7 @@
 
 form {
   float: right;
+  z-index: 1;
 }
 
   .search-box {
