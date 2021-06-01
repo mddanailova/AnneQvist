@@ -15,6 +15,7 @@ body {
 /*Her starter styling til mobile*/
 /* Grid containter https://css-tricks.com/snippets/css/complete-guide-grid/
 Har benyttet mig af deres guide til columns, rows og areas*/
+
 /*Her opsættes grid layout til mobile*/
 .maxmara-container {
   margin: 1rem;
@@ -91,44 +92,6 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 .product-j img {
   max-width: 100%;
 }
-/*Her styles footer til mobile*/
-
-footer {
-  border: 2px solid black;
-  margin: 5px 5px 10px 5px;
-  background-color: white;
-}
-
-footer img {
-  vertical-align: middle;
-}
-
-p {
-  text-align: left;
-  margin-left: 20%;
-}
-
-.rowfooter {
-  display: flex;
-  width: 100%;
-}
-
-.columnfooter {
-  flex: 33.33%;
-}
-
-h2 {
-  text-align: left;
-  margin: 2% 0 5% 20%;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  line-height: 2.5;
-  margin-left: 19%;
-}
-
 /* Her styles der til desktop */
 @media screen and (min-width: 667px) {
   .maxmara-brand {
@@ -172,13 +135,5 @@ a {
   }
   .product-j {
     grid-area: product-j;
-  }
-  /*Her styles footer til desktop*/
-  .columnfooter {
-    width: 100%;
-  }
-  .rowfooter {
-    display: flex;
-    flex-direction: column;
   }
 }
