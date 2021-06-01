@@ -1,10 +1,10 @@
-/*Her bruger jeg constant værdien som opretter en skrive beskyttet henvisning til en værdi.
+/* Her bruger jeg constant værdien som opretter en skrive beskyttet henvisning til en værdi.
 Det betyder ikke at værdien ikke kan ændres på, men at variablen ikke kan benyttes igen
 efter den er blevet klikket på.*/
 
 /* Jeg laver en constant for to af de classes som bruges i min section.
 queryselectoren retunerer det første element i dokumentet, som matcher den angivne css
-selctor i dokumentet*/
+selector i dokumentet*/
 const cookieContainer = document.querySelector(".cookie-container");
 const cookieButton = document.querySelector(".cookie-btn2");
 
