@@ -92,6 +92,15 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 .product-j img {
   max-width: 100%;
 }
+footer {
+  border: 2px solid black;
+  margin: 5px 5px 10px 5px;
+  background-color: white;
+}
+p {
+  text-align: left;
+  margin-left: 20%;
+}
 /*Her styles footer til mobile*/
 .columnfooter {
   margin-top: 5%;
@@ -100,6 +109,17 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 .rowfooter {
   display: flex;
   flex-direction: column;
+}
+h2 {
+  text-align: left;
+  margin: 2% 0 5% 20%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  line-height: 2.5;
+  margin-left: 19%;
 }
 /* Her styles der til desktop */
 @media screen and (min-width: 667px) {
@@ -145,11 +165,10 @@ Har benyttet mig af deres guide til columns, rows og areas*/
   .product-j {
     grid-area: product-j;
   }
-  /*FOOTER STYLING*/
-
   footer {
-    font-family: "Roboto", sans-serif;
-    background-color: #f7efeb;
+    border: 2px solid black;
+    margin: 5px 5px 10px 5px;
+    background-color: white;
   }
 
   footer img {
@@ -157,7 +176,6 @@ Har benyttet mig af deres guide til columns, rows og areas*/
   }
 
   p {
-    font-family: "Roboto", sans-serif;
     text-align: left;
     margin-left: 20%;
   }
@@ -172,12 +190,9 @@ Har benyttet mig af deres guide til columns, rows og areas*/
     flex: 33.33%;
   }
 
-  .Heading4 {
-    font-family: "tinos", serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  h2 {
     text-align: left;
-    margin: 5% 0 5% 20%;
+    margin: 2% 0 5% 20%;
   }
 
   a {
@@ -185,6 +200,5 @@ Har benyttet mig af deres guide til columns, rows og areas*/
     color: black;
     line-height: 2.5;
     margin-left: 19%;
-    font-family: "Roboto", sans-serif;
   }
 }
