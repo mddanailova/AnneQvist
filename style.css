@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
 body {
@@ -93,6 +92,7 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 .product-j img {
   max-width: 100%;
 }
+/*Her styles footer til mobile*/
 .columnfooter {
   margin-top: 5%;
   width: 100%;
@@ -145,18 +145,6 @@ Har benyttet mig af deres guide til columns, rows og areas*/
   .product-j {
     grid-area: product-j;
   }
-  footer {
-    background-color: #f7efeb;
-  }
-
-  footer img {
-    vertical-align: middle;
-  }
-
-  p {
-    text-align: left;
-    margin-left: 20%;
-  }
   /*FOOTER STYLING*/
 
   footer {
@@ -176,6 +164,7 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 
   .rowfooter {
     display: flex;
+    flex-direction: row;
     width: 100%;
   }
 
