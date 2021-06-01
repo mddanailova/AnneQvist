@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 * {
-  margin: 0;
   padding: 0;
   text-decoration: none;
 }
@@ -93,12 +93,12 @@ Har benyttet mig af deres guide til columns, rows og areas*/
   max-width: 100%;
 }
 footer {
-  border: 2px solid black;
   margin: 5px 5px 10px 5px;
-  background-color: white;
+  background-color: #f7efeb;
 }
 p {
   text-align: left;
+  font-family: "roboto", sans-serif;
   margin-left: 20%;
 }
 /*Her styles footer til mobile*/
@@ -112,6 +112,9 @@ p {
 }
 h2 {
   text-align: left;
+  font-family: "tinos", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   margin: 2% 0 5% 20%;
 }
 
@@ -120,6 +123,7 @@ a {
   color: black;
   line-height: 2.5;
   margin-left: 19%;
+  font-family: "roboto", sans-serif;
 }
 /* Her styles der til desktop */
 @media screen and (min-width: 667px) {
@@ -166,9 +170,8 @@ a {
     grid-area: product-j;
   }
   footer {
-    border: 2px solid black;
     margin: 5px 5px 10px 5px;
-    background-color: white;
+    background-color: #f7efeb;
   }
 
   footer img {
@@ -177,6 +180,7 @@ a {
 
   p {
     text-align: left;
+    font-family: "roboto", sans-serif;
     margin-left: 20%;
   }
 
@@ -192,6 +196,9 @@ a {
 
   h2 {
     text-align: left;
+    font-family: "tinos", serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     margin: 2% 0 5% 20%;
   }
 
@@ -200,5 +207,6 @@ a {
     color: black;
     line-height: 2.5;
     margin-left: 19%;
+    font-family: "roboto", sans-serif;
   }
 }
