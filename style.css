@@ -1,7 +1,10 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  background: #f4efeb;
+}
+
+body {
+    background: #f4efeb;
 }
 
 /*HEADER STYLING*/
@@ -23,11 +26,16 @@ header img {
   text-align: center;
   margin:0;
   font-size: 2.2em;
+  letter-spacing: 1px;
+  font-family: 'Tinos', serif;
 }
 
 .headerundertekst {
   text-align: center;
   margin: 0 0 1% 0;
+  letter-spacing: 2.5px;
+  font-family: 'Tinos', serif;
+  text-transform: uppercase;
 }
 
 .headerlink {
@@ -45,6 +53,14 @@ nav {
   margin-bottom: 0.5%;
 }
 
+nav a {
+    line-height: 2.5;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
 
 /*BILLEDE STYLING*/
 
@@ -56,6 +72,8 @@ nav {
 
 h1 {
   margin-left: 10%;
+  font-family: 'Tinos', serif;
+  text-transform: uppercase;
 }
 
 .tekst {
@@ -70,6 +88,7 @@ h1 {
   text-align: justify;
   margin-left: 10%;
   background-color: transparent;
+  letter-spacing: 1px;
 }
 
 #tekstto {
@@ -77,6 +96,7 @@ h1 {
   text-align: justify;
   margin-left: 35%;
   background-color: transparent;
+  letter-spacing: 1px;
 }
 
 /*INSTAGRAM BILLEDER STYLING*/
@@ -85,6 +105,12 @@ h1 {
   text-align: center;
   margin-left: 0%;
   margin-top: 4%;
+  letter-spacing: 1px;
+}
+
+.instagram a {
+  text-decoration: none;
+  color: black;
 }
 
 .row {
@@ -106,9 +132,9 @@ h1 {
 /*FOOTER STYLING*/
 
 footer {
-  border: 2px solid black;
+  border: 1.5px solid black;
   margin: 5px 5px 10px 5px;
-  background-color: white;
+  background: #f4efeb;
 }
 
 footer img {
@@ -131,10 +157,12 @@ p {
 
 h2 {
   text-align: left;
-  margin: 2% 0 5% 20%;
+  margin: 3% 0 3% 20%;
+  font-family: 'Tinos', serif;
+  text-transform: uppercase;
 }
 
-a {
+footer a {
   text-decoration: none;
   color: black;
   line-height: 2.5;
@@ -153,6 +181,10 @@ a {
      flex-direction: column;
     }
 
+    .headertekst {
+      padding: 1.5%;
+    }
+
     header img {
       width: 7%;
     }
@@ -166,12 +198,14 @@ a {
       width: 80%;
       text-align: justify;
       margin-left: 10%;
+      letter-spacing: 0.2px;
     }
 
     #tekstto {
       width: 80%;
       text-align: justify;
       margin-left: 10%;
+      letter-spacing: 0.2px;
     }
 
     .tekst {
