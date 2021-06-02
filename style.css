@@ -380,6 +380,15 @@ footer a {
       background-image: none;
     }
 
+    .news-container{
+        flex-direction: column;
+    }
+    
+    input[type=mail], #email {
+        width: 60%;
+        margin-left: -5%;
+      }
+
     .columnfooter {
     width: 100%;
     }
