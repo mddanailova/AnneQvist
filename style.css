@@ -10,12 +10,14 @@
   margin: 0 0 0 0;
 }
 
+header img {
+  width: 3%;
+}
+
 .ikon {
   margin-left: 17%;
   position: absolute;
 }
-
-
 
 .headertekst {
   text-align: center;
@@ -48,12 +50,6 @@ nav {
 
 .billedeet {
   text-align: center;
-}
-
-.midtbillede {
-  position: relative;
-
-  z-index:-1;
 }
 
 /*TEKST STYLING*/
@@ -157,16 +153,29 @@ a {
      flex-direction: column;
     }
 
+    header img {
+      width: 7%;
+    }
+
+    .ikon {
+      margin-left: 0.4%;
+      position: absolute;
+    }
+
     #tekstet {
-      width: 70%;
+      width: 80%;
       text-align: justify;
       margin-left: 10%;
     }
 
     #tekstto {
-      width: 70%;
+      width: 80%;
       text-align: justify;
       margin-left: 10%;
+    }
+
+    .tekst {
+      background-image: none;
     }
 
     .columnfooter {
