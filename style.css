@@ -101,6 +101,64 @@ p {
   font-family: "roboto", sans-serif;
   margin-left: 20%;
 }
+/*Her styles nyhedsbrev til mobile*/
+.news-container {
+  flex-direction: column;
+  padding: 0 0 30px 30px;
+  left: 0;
+  right: 0;
+  background: #d4d0db;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid black;
+}
+.Heading3 {
+  margin-left: 4%;
+  margin-top: 10%;
+  font-family: "tinos", serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/*Styling af knap til nyhedsbrev*/
+input[type="tilmeld"] {
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px #b7b4bd;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+}
+input[type="tilmeld"]:hover {
+  background-color: none;
+  transform: translateY(-7px);
+}
+.p5 {
+  margin-left: 4%;
+  letter-spacing: 1.5px;
+}
+input[type="mail"],
+#email {
+  width: 60%;
+  margin-left: 3%;
+  padding: 12px;
+  border: 2px solid #d4d0db;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px 8px 15px #b7b4bd;
+}
 /*Her styles footer til mobile*/
 .columnfooter {
   margin-top: 5%;
