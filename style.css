@@ -5,6 +5,7 @@ på siden*/
 
 *{
     box-sizing: border-box;
+    margin
 }
 
 /* Styling af body */
@@ -331,6 +332,7 @@ input[type=tilmeld]:hover {
 footer {
     font-family: 'Roboto', sans-serif;
     background-color: #f7efeb;
+    margin-bottom: 1%;
 }
   
 footer img {
