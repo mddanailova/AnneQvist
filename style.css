@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 * {
-  padding: 0;
   text-decoration: none;
 }
 body {
@@ -227,6 +226,7 @@ a {
   .product-j {
     grid-area: product-j;
   }
+  /*Her styles footer til desktop*/
   footer {
     margin: 5px 5px 10px 5px;
     background-color: #f7efeb;
