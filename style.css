@@ -253,7 +253,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 /* Her stylinges Nyhedsbrev-containeren */
 .news-container{
   display: flex;
-  padding: 0 0 30px 30px;
+  padding: 0.2% 2% 1% 2%;
   left: 0;
   right: 0;
   background: #D4d0db;
@@ -265,8 +265,6 @@ Deruover er der også blevet tilføjet billedtekst*/
 /* Styling af overskrift til news-container */
 
 .Heading3{
-  margin-top: 5%;
-  margin-left: 20%;
   font-family: 'tinos', serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -317,13 +315,18 @@ input[type=tilmeld]:hover {
 
 .indhold{
   flex: 33.33%;
+  padding: 2%;
+}
+
+form {
+  margin: 0 0 0 14%;
 }
 
 /* Styling af tekst i container */ 
 
 .p5{
   letter-spacing: 1.5px;
-  margin-left: 20%;
+  margin-left: 0;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -372,6 +375,7 @@ a {
 /* Herfra startes stylingen af DESKTOP*/
 
 @media screen and (min-width: 667px) {
+  
   .brands {
     max-width: 80%;
     margin-bottom: 3rem; 
@@ -631,7 +635,7 @@ a {
     font-weight: 100;
     text-align: left;
   }
-
+  
   
 }
 
