@@ -5,7 +5,6 @@ på siden*/
 
 *{
     box-sizing: border-box;
-    margin
 }
 
 /* Styling af body */
@@ -135,7 +134,6 @@ input[type=submit] {
 }
       
 input[type=submit]:hover {
-    background-color: none;
     box-shadow: 0px 15px 20px #e6c4ba;
     transform: translateY(-7px);
 }
@@ -144,7 +142,6 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: none;
     padding: 20px;
 }
 
@@ -197,7 +194,6 @@ sørger for, at containeren kommer frem efter to sekunder og forsvinder igen nå
 }
 
 .cookie-btn1:hover {
-    background-color: none;
     transform: translateY(-7px);
 }
 
@@ -220,7 +216,6 @@ sørger for, at containeren kommer frem efter to sekunder og forsvinder igen nå
     }
 
 .cookie-btn2:hover {
-    background-color: none;
     transform: translateY(-7px);
 }
 
@@ -246,6 +241,19 @@ iframe{
     padding: 4%;
 }
 
+/* Styling af container */ 
+
+.news-container{
+    display: flex;
+    padding: 0.2% 2% 1% 2%;
+    left: 0;
+    right: 0;
+    background: #D4d0db;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+}
+
 /* Styling af overskrift til news-container */
 
 .Heading3{
@@ -256,9 +264,26 @@ iframe{
     letter-spacing: 2px;
 }
 
+/* Styling af tekstfelt */ 
+
+input[type=mail], #email {
+    width: 50%;
+    padding: 12px;
+    border: 2px solid #D4d0db;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 8px 15px #b7b4bd;
+    margin-top: 6.5%; 
+    margin-right: 20%;
+}
+
 /* Styling af knap */ 
 
-input[type=tilmeld] {
+input[type=button] {
     height: 45px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
@@ -275,47 +300,17 @@ input[type=tilmeld] {
     outline: none;
     text-align: center;
     margin-left: -17%;
-    margin-top: 9.5%;
+    margin-top: 8.5%;
 }
 
-/* Styling af tekstfelt */ 
-
-input[type=mail], #email {
-    width: 50%;
-    padding: 12px;
-    border: 2px solid #D4d0db;
-    border-radius: 10px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical; 
-    font-family: 'Roboto', sans-serif;
-    box-shadow: 0px 8px 15px #b7b4bd;
-    margin-top: 7.5%; 
-    margin-right: 20%;
-}
-
-input[type=tilmeld]:hover {
-    background-color: none;
+input[type=button]:hover {
     transform: translateY(-7px);
 }
 
-/* Styling af container */ 
-
-.news-container{
-    display: flex;
-    padding: 0 0 30px 30px;
-    left: 0;
-    right: 0;
-    background: #D4d0db;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    border: 1px solid black;
-}
 
 /* Indholdet flexer, så de står ved siden af hinanden */ 
 
-.indhold{
+.flex{
     flex: 33.33%;
 }
 
@@ -434,3 +429,4 @@ https://www.w3schools.com/css/css3_flexbox_responsive.asp */
         display: flex;
         flex-direction: column;
     }
+}
