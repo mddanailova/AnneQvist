@@ -5,18 +5,8 @@
 body {
   background-color: #f7efeb;
 }
-/* HEADER */
-.headertekst {
-  padding: 1.5%;
-}
-
-header img {
+header {
   display: none;
-}
-
-.ikon {
-  margin-left: 0.4%;
-  position: absolute;
 }
 .maxmara-brand {
   margin: 1rem;
@@ -209,6 +199,7 @@ a {
   header {
     margin-top: 1.5%;
     text-transform: uppercase;
+    display: inline;
   }
 
   /* Style the links inside the navigation bar */
