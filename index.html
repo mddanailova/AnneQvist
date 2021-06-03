@@ -9,33 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+} </script>
 </head>
 
 <body>
   <section>
+
     <header>
-    <!-- SØGEBAREN ER FRA https://codepen.io/aaroniker/pen/XyXzYp -->
-    <div class="searchbaren">
-      <div class="search">
-          <input type="text" placeholder=" ">
-          <div>
-              <svg>
-                  <use xlink:href="#path">
-              </svg>
-          </div>
-      </div>
-
-      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-          <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 28" id="path">
-              <path d="M32.9418651,-20.6880772 C37.9418651,-20.6880772 40.9418651,-16.6880772 40.9418651,-12.6880772 C40.9418651,-8.68807717 37.9418651,-4.68807717 32.9418651,-4.68807717 C27.9418651,-4.68807717 24.9418651,-8.68807717 24.9418651,-12.6880772 C24.9418651,-16.6880772 27.9418651,-20.6880772 32.9418651,-20.6880772 L32.9418651,-29.870624 C32.9418651,-30.3676803 33.3448089,-30.770624 33.8418651,-30.770624 C34.08056,-30.770624 34.3094785,-30.6758029 34.4782612,-30.5070201 L141.371843,76.386562" transform="translate(83.156854, 22.171573) rotate(-225.000000) translate(-83.156854, -22.171573)"></path>
-          </symbol>
-      </svg>
-
-      <!-- dribbble -->
-      <a class="dribbble" href="https://dribbble.com/shots/5547403-Search-input-animation" target="_blank"><img src="https://dribbble.com/assets/logo-small-2x-9fe74d2ad7b25fba0f50168523c15fda4c35534f9ea0b1011179275383035439.png" alt=""></a>
-</div>
-    <!-- SØGEBAR SLUT -->
-
       <div class="ikon">
       <a class="headerikon" href="https://www.facebook.com/anneqvistmode">
       <img src="./billeder/facebook.png" alt="facebook">
@@ -44,12 +33,15 @@
       <img src="./billeder/insta.png" alt="instagram">
       </a>
       </div>
+
       <a href="INDSÆT LINK">
       <h1 class="headertekst">Anne Qvist</h1>
     </a>
       <p class="headerundertekst">House of fashion</p>
       <hr />
-      <nav>
+
+      <nav class="topnav" id="myTopnav">
+        <h2 class="menu">MENU</h2>
       <a class="headerlink" href="http://miladanailova.dk/AnneQvist/">
       OM OS
     </a>
@@ -59,11 +51,17 @@
     <a class="headerlink" href="https://www.instagram.com/mila.danailova/">
       KONTAKT
       </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   <i class="fa fa-bars"></i>
+ </a>
       </nav>
     </header>
+
+
     <div class="billedeet">
         <img src="./billeder/omos01.png" alt="piger" style="width:80%" >
     </div>
+
     <div class="tekst">
       <h1>Om os</h1>
       <p id="tekstet">
@@ -71,7 +69,10 @@
         Personlig betjening er noget af det vi lægger stor vægt på. og vi elsker at hjælpe kunderne med at finde det helt rigtige, der passer dem.
         Vi gør os meget umage med at vælge vores varer ud , så de passer til vores kunder og ikke er noget de finder alle steder.</p>
 
-      <p id="tekstto">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia</p>
+      <p id="tekstto">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+        ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+        aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+        dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia</p>
     </div>
 
 <!-- HER ER DER BRUGT http://miladanailova.dk/Portfolio/ FOR LAVE DE 3 BILLEDER VED SIDEN AF HINANDEN -->
@@ -84,19 +85,19 @@
       <div class="row">
         <div class="column">
           <a href="https://www.instagram.com/p/CJnbwB3Bi_B/">
-          <img src="./billeder/insta1.jpg" alt="insta" style="width:80%">
+          <img src="./billeder/insta1.JPG" alt="insta" style="width:80%">
             </a>
         </div>
 
       <div class="column">
         <a href="https://www.instagram.com/p/CJnbsbCB5MN/">
-        <img src="./billeder/insta2.jpg" alt="insta" style="width:80%">
+        <img src="./billeder/insta2.JPG" alt="insta" style="width:80%">
           </a>
       </div>
 
       <div class="column">
         <a href="https://www.instagram.com/p/B_CzSVChZtL/">
-        <img src="./billeder/insta3.jpg" alt="insta" style="width:80%">
+        <img src="./billeder/insta3.JPG" alt="insta" style="width:80%">
           </a>
       </div>
     </div>
@@ -104,30 +105,30 @@
     <div class="row">
       <div class="column">
         <a href="https://www.instagram.com/p/B3ZS0lrBPDl/">
-        <img src="./billeder/insta4.jpg" alt="insta" style="width:80%">
+        <img src="./billeder/insta4.JPG" alt="insta" style="width:80%">
           </a>
       </div>
 
       <div class="column">
         <a href="https://www.instagram.com/p/CAfflQbB-BQ/">
-        <img src="./billeder/insta5.jpg" alt="insta" style="width:80%">
+        <img src="./billeder/insta5.JPG" alt="insta" style="width:80%">
           </a>
       </div>
 
       <div class="column">
         <a href="https://www.instagram.com/p/COfvpkZhVR6/">
-        <img src="./billeder/insta6.jpg" alt="insta" style="width:80%">
+        <img src="./billeder/insta6.JPG" alt="insta" style="width:80%">
       </a>
       </div>
 
     </div>
+  </div>
   </section>
 
   <section class="news-container">
       <div class="indhold">
           <h2 class="Heading3">Tilmed dig vores nyhedsbrev</h2>
-          <p class="p5">Bliv medlem af vores klub og modtag fremover vores nyhedsbrev</p>
-          <p class="p5">med ekslusive tilbud, personlige anbefalinger, nye produkter og meget mere!</p>
+          <p class="p5">Bliv medlem af vores klub og modtag fremover vores nyhedsbrev med ekslusive tilbud, personlige anbefalinger, nye produkter og meget mere!</p>
       </div>
       <div class="indhold">
       <form>
@@ -176,6 +177,7 @@
         </a>
       <br>
       </div>
+
     </div>
   </footer>
   </body>
