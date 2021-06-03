@@ -5,6 +5,19 @@
 body {
   background-color: #f7efeb;
 }
+/* HEADER */
+.headertekst {
+  padding: 1.5%;
+}
+
+header img {
+  display: none;
+}
+
+.ikon {
+  margin-left: 0.4%;
+  position: absolute;
+}
 .maxmara-brand {
   margin: 1rem;
 }
