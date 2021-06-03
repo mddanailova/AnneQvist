@@ -13,6 +13,7 @@ body {
 /*STYLING AF HEADER ELEMENTER*/
 header {
     margin-top: 1.5%;
+    text-transform: uppercase;
 }
 
 
@@ -316,7 +317,8 @@ nav {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
-    right: 0;
+    z-index: 999;
+    right: 8.3em;
     top: 0;
   }
   .topnav.responsive a {
