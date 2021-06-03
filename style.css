@@ -338,11 +338,11 @@ a {
   input[type="tilmeld"] {
     margin-left: -17%;
   }
-  /* Indholdet flexer, så de står ved siden af hinanden */
   input[type="mail"],
   #email {
     margin-top: 7.5%;
     margin-right: 20%;
+    /* Indholdet flexer, så de står ved siden af hinanden */
   }
   .indhold {
     flex: 33.33%;
