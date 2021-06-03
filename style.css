@@ -9,6 +9,7 @@ på siden*/
 
 /* Styling af body */
 
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #f7efeb;
@@ -44,7 +45,7 @@ header {
 }
 
 header img {
-  width: 3%;
+  width: 4%;
 }
 
 .ikon {
@@ -54,7 +55,7 @@ header img {
 
 .headertekst {
   text-align: center;
-  margin: -60px;
+  margin: -60px 0;
   font-size: 2.2em;
   letter-spacing: 2px;
   font-family: 'Tinos', serif;
@@ -508,6 +509,7 @@ https://www.w3schools.com/css/css3_flexbox_responsive.asp */
         flex-direction: column;
     }
 
+    
     .Heading2{
         margin-top: 20%;
         margin-left: 11%;
@@ -560,6 +562,15 @@ https://www.w3schools.com/css/css3_flexbox_responsive.asp */
     }
 
     .headerundertekst{
-        margin: 8% 1% 1% 1%; ;
+        margin: 8% 1% 1% 1%; 
     }
+
+    .headertekst{
+        margin: -50px 0;
+    }
+
+    .cookie-container.active{
+        max-width: 375px;
+    }
+}
 }
