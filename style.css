@@ -124,7 +124,7 @@ https://css-tricks.com/snippets/css/complete-guide-grid/*/
 Hver class er blevet stylet for sig, mens deres indeholdte billede er stylet hver for sig 
 Deruover er der også blevet tilføjet billedtekst*/
 .product1 {
-  grid-area: "product1";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product1 img {
@@ -143,7 +143,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product2 {
-  grid-area: "product2";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product2 img {
@@ -162,7 +162,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product3 {
-  grid-area: "product3";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product3 img {
@@ -181,7 +181,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product4 {
-  grid-area: "product4";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product4 img {
@@ -200,7 +200,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product5 {
-  grid-area: "product5";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product5 img {
@@ -219,7 +219,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product6 {
-  grid-area: "product6";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product6 img {
@@ -238,7 +238,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product7 {
-  grid-area: "product7";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product7 img {
@@ -257,7 +257,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product8 {
-  grid-area: "product8";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product8 img {
@@ -276,7 +276,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product9 {
-  grid-area: "product9";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product9 img {
@@ -295,7 +295,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product10 {
-  grid-area: "product10";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product10 img {
@@ -314,7 +314,7 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 .product11 {
-  grid-area: "product11";
+  grid-area: auto;
   margin-bottom: 2rem;
 }
 .product11 img {
