@@ -91,6 +91,7 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 .product-j img {
   max-width: 100%;
 }
+/*Styling af nyhedsbrev mobile*/
 Heading3 {
   margin-top: 5%;
   font-family: "tinos", serif;
@@ -131,7 +132,7 @@ input[type="mail"],
   resize: vertical;
   font-family: "Roboto", sans-serif;
   box-shadow: 0px 8px 15px #b7b4bd;
-  margin-left: 4.5rem;
+  margin-left: 94px;
 }
 
 input[type="tilmeld"]:hover {
@@ -139,13 +140,10 @@ input[type="tilmeld"]:hover {
   transform: translateY(-7px);
 }
 
-/* Styling af container */
+/* Styling af container til nyhedsbrev*/
 
 .news-container {
   flex-direction: row;
-
-  left: 0;
-  right: 0;
   background: #d4d0db;
   color: black;
   font-family: "Roboto", sans-serif;
@@ -236,11 +234,6 @@ a {
   .product-j {
     grid-area: product-j;
   }
-  /*Her styles footer til desktop*/
-  footer {
-    margin: 5px 5px 10px 5px;
-    background-color: #f7efeb;
-  }
   /*Nyhedsbrev til desktop styles her*/
   .news-container {
     display: flex;
@@ -248,7 +241,6 @@ a {
   }
   input[type="tilmeld"] {
     margin-left: -17%;
-    margin-top: 9.5%;
   }
   /* Indholdet flexer, så de står ved siden af hinanden */
   input[type="mail"],
@@ -260,6 +252,10 @@ a {
     flex: 33.33%;
   }
   /*Her styles footer til desktop*/
+  footer {
+    margin: 5px 5px 10px 5px;
+    background-color: #f7efeb;
+  }
   footer img {
     vertical-align: middle;
   }
