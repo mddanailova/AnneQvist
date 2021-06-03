@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  
   padding: 0;
 }
 
@@ -254,20 +254,45 @@ Deruover er der også blevet tilføjet billedtekst*/
 /* Her starter stylingen af footeren */
 /* Create three equal columns that floats next to each other */
 
-.row {
+footer{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f7efeb;
+
+}
+
+footer img{
+  vertical-align: middle;
+}
+
+.rowfooter {
   display: flex;
   width: 100%;
 }
 
-.column {
+.columnfooter {
   flex: 33.33%;
-  padding: 5px;
-  text-align: center;
 }
 
 p {
+  font-family: 'Roboto', sans-serif;
   text-align: left;
   margin-left: 30%;
+}
+
+.Heading{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: 5% 0 5% 20%;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  line-height: 2.5px;
+  margin-left: 19%;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -540,11 +565,11 @@ p {
 
 /* Gør instagram billederne responsive og "stacker" dem under hinanden*/
   @media screen and (max-width: 860px) {
-    .column {
+    .columnfooter {
     width: 100%;
     }
 
-    .row {
+    .rowfooter {
       display: flex;
      flex-direction: column;
     }
