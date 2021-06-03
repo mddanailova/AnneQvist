@@ -182,7 +182,7 @@ h1 {
 }
 
 /* Styling af knap */
-input[type=tilmeld] {
+input[type=button] {
     height: 45px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
@@ -203,7 +203,7 @@ input[type=tilmeld] {
 }
 
 /* Styling af tekstfelt */
-input[type=mail], #email {
+input[type=email], #email {
     width: 50%;
     padding: 12px;
     border: 2px solid #D4d0db;
@@ -218,7 +218,7 @@ input[type=mail], #email {
     margin-right: 20%;
 }
 
-input[type=tilmeld]:hover {
+input[type=button]:hover {
     background-color: none;
     transform: translateY(-7px);
 }
