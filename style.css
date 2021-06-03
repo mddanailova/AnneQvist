@@ -40,11 +40,6 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 .product-a img {
   max-width: 100%;
 }
-.product-a h2 {
-  margin-top: 0.2rem;
-  color: #d9b0a7;
-  font-size: 20px;
-}
 .product-b {
   grid-area: product-b;
 }
@@ -182,7 +177,7 @@ p {
   display: flex;
   flex-direction: column;
 }
-h2 {
+.columnfooter h2 {
   text-align: left;
   font-family: "tinos", serif;
   text-transform: uppercase;
@@ -371,7 +366,7 @@ a {
     flex: 33.33%;
   }
 
-  h2 {
+  .columnfooter h2 {
     text-align: left;
     font-family: "tinos", serif;
     text-transform: uppercase;
