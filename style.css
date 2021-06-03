@@ -17,7 +17,7 @@ header {
 }
 
 
-/* Style links i navigationen */
+/* Styler linksene i navigationen */
 .topnav a {
 text-align: center;
 text-decoration: none;
@@ -95,7 +95,7 @@ font-size: 1.1em;
   max-width: 80%;
   margin-bottom: 3rem;
 
-/* Nedestående (linje 16-18) er styling af brands, som gør at billederne placeres i midten af siden.
+/* Nedestående (linje 100-102) er styling af brands, som gør at billederne placeres i midten af siden.
 Kilden er fundet fra W3's hjemmeside (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_center) */
   display: block;
   margin-left: auto;
@@ -345,7 +345,6 @@ Deruover er der også blevet tilføjet billedtekst*/
 }
 
 /* Styling af overskrift til news-container */
-
 .Heading3{
   font-family: 'tinos', serif;
   text-transform: uppercase;
@@ -394,7 +393,6 @@ input[type=tilmeld]:hover {
 }
 
 /* Indholdet flexer, så de står ved siden af hinanden */ 
-
 .indhold{
   flex: 33.33%;
   padding: 2%;
@@ -405,7 +403,6 @@ form {
 }
 
 /* Styling af tekst i container */ 
-
 .p5{
   letter-spacing: 1.5px;
   margin-left: 0;
@@ -458,20 +455,12 @@ a {
 
 @media screen and (min-width: 667px) {
   
-  .headertekst {
-    padding: 1.5%;
-  }
-
-  header img {
-    display: none;
-  }
-
-  .ikon {
-    margin-left: 0.4%;
-    position: absolute;
-  }
+  /* Her starter header-stylingen endnu engang, men forbedret til desktop*/
+  
 
 
+
+  /* Her starter stylingen af brandsene i toppen, men forbedret til desktop*/
   .brands {
     max-width: 80%;
     margin-bottom: 3rem; 
@@ -735,7 +724,7 @@ a {
   
 }
 
-
+/* Her starter footer-stylingen endnu engang, men forbedret til desktop*/
 /* Gør instagram billederne responsive og "stacker" dem under hinanden*/
   @media screen and (max-width: 860px) {
     .columnfooter {
