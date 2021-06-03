@@ -104,7 +104,7 @@ Har benyttet mig af deres guide til columns, rows og areas*/
 }
 /* Styling af knap */
 
-input[type="tilmeld"] {
+input[type="text"] {
   height: 45px;
   font-family: "Roboto", sans-serif;
   font-size: 11px;
