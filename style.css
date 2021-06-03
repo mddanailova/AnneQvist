@@ -262,6 +262,16 @@ Deruover er der også blevet tilføjet billedtekst*/
   border: 1px solid black;
 }
 
+/* Styling af overskrift til news-container */
+
+.Heading3{
+  margin-top: 5%;
+  margin-left: 20%;
+  font-family: 'tinos', serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 input[type=tilmeld] {
   height: 45px;
   font-family: 'Roboto', sans-serif;
