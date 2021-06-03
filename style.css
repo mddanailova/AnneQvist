@@ -250,10 +250,20 @@ Deruover er der også blevet tilføjet billedtekst*/
   text-align: left;
 }
 
+/* Her stylinges Nyhedsbrev-containeren */
+.news-container{
+  display: flex;
+  padding: 0 0 30px 30px;
+  left: 0;
+  right: 0;
+  background: #D4d0db;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid black;
+}
 
 
 /* Her starter stylingen af footeren */
-
 footer {
   font-family: 'Roboto',sans-serif;
   background: #f4efeb;
