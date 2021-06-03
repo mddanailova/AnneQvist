@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
 * {
-  
   padding: 0;
 }
 
-.body {
-  background-color: #f7efeb;  
+body {
+  margin: 0;  
 }
 
 /* Herfra startes stylingen af MOBILE-FIRST*/
@@ -252,16 +253,20 @@ Deruover er der også blevet tilføjet billedtekst*/
 
 
 /* Her starter stylingen af footeren */
-/* Create three equal columns that floats next to each other */
 
-footer{
-  font-family: 'Roboto', sans-serif;
-  background-color: #f7efeb;
-
+footer {
+  font-family: 'Roboto',sans-serif;
+  background: #f4efeb;
 }
 
-footer img{
+footer img {
   vertical-align: middle;
+}
+
+p {
+  font-family: 'Roboto',sans-serif;
+  text-align: left;
+  margin-left: 20%;
 }
 
 .rowfooter {
@@ -273,26 +278,19 @@ footer img{
   flex: 33.33%;
 }
 
-p {
-  font-family: 'Roboto', sans-serif;
+.Heading {
   text-align: left;
-  margin-left: 30%;
-}
-
-.Heading{
-  text-transform: uppercase;
   letter-spacing: 2px;
-  text-align: left;
   margin: 5% 0 5% 20%;
-
+  font-family: 'Tinos', serif;
+  text-transform: uppercase;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
-  line-height: 2.5px;
+  line-height: 2.5;
   margin-left: 19%;
-  font-family: 'Roboto', sans-serif;
 }
 
 
