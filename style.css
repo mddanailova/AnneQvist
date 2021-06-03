@@ -192,6 +192,93 @@ a {
 }
 /* Her styles der til desktop */
 @media screen and (min-width: 667px) {
+  /*STYLING AF HEADER ELEMENTER*/
+  header {
+    margin-top: 1.5%;
+    text-transform: uppercase;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+  }
+
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    color: white;
+  }
+
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .headerikon {
+    margin: 0 0 0 0;
+  }
+
+  header img {
+    display: inline;
+    width: 3%;
+  }
+
+  .ikon {
+    margin-left: 17%;
+    position: absolute;
+  }
+
+  .headertekst {
+    text-align: center;
+    margin: 0;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    font-family: "Tinos", serif;
+  }
+
+  .headerundertekst {
+    text-align: center;
+    margin: 0 0 1% 0;
+    letter-spacing: 2.5px;
+    font-family: "Tinos", serif;
+    text-transform: uppercase;
+  }
+
+  .headerlink {
+    margin: 5% 7% 4% 7%;
+    font-family: "Tinos", serif;
+    letter-spacing: 2px;
+  }
+
+  hr {
+    width: 65%;
+    height: 2px;
+    background: black;
+  }
+
+  nav {
+    text-align: center;
+    margin-bottom: 0.8%;
+  }
+
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+
+  h2.menu {
+    font-size: 1.1em;
+  }
   .maxmara-brand {
     margin: 1rem;
   }
