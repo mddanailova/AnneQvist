@@ -139,7 +139,7 @@ input[type="mail"],
   margin-left: 94px;
 }
 
-input[type="tilmeld"]:hover {
+input[type="text"]:hover {
   transform: translateY(-7px);
 }
 
@@ -335,7 +335,7 @@ a {
     margin-top: 5%;
     margin-left: 3em;
   }
-  input[type="tilmeld"] {
+  input[type="text"] {
     margin-left: -17%;
   }
   input[type="mail"],
