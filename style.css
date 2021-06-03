@@ -112,12 +112,13 @@ https://css-tricks.com/snippets/css/complete-guide-grid/*/
   grid-template-rows: auto;
   grid-gap: 0.5rem;  /* Afstanden mellem kolonnerne */
   grid-template-areas:   /* Her placerer man de forskllige classes ift. gridet - hvilke der skal stå hvor osv. */
-    "product1 product2",
-    "product3 product4",
-    "product5 product6",
-    "product7 product8",
-    "product9 product10",
-    "product11 product12"}
+    "product1 product2"
+    "product3 product4"
+    "product5 product6"
+    "product7 product8"
+    "product9 product10"
+    "product11 product12";
+  }
 
 /* Her under starter stylingen af de forskellige classes på galleriet
 Hver class er blevet stylet for sig, mens deres indeholdte billede er stylet hver for sig 
@@ -505,10 +506,10 @@ a {
     grid-template-rows: auto;
     grid-gap: 0.5rem;  
     grid-template-areas:   
-      "product1 product2 product3 product4 product5",
-      "product6 product7 product8 product9 product10",
+      "product1 product2 product3 product4 product5"
+      "product6 product7 product8 product9 product10"
       "product11 product12";
-  }
+    }
 
   .product1 {
     grid-area: auto;
