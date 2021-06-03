@@ -458,6 +458,20 @@ a {
 
 @media screen and (min-width: 667px) {
   
+  .headertekst {
+    padding: 1.5%;
+  }
+
+  header img {
+    display: none;
+  }
+
+  .ikon {
+    margin-left: 0.4%;
+    position: absolute;
+  }
+
+
   .brands {
     max-width: 80%;
     margin-bottom: 3rem; 
