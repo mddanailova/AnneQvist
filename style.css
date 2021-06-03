@@ -95,7 +95,8 @@ Har benyttet mig af deres guide til columns, rows og areas*/
   max-width: 100%;
 }
 /*Styling af nyhedsbrev mobile*/
-Heading3 {
+.Heading3 {
+  text-align: center;
   margin-top: 5%;
   font-family: "tinos", serif;
   text-transform: uppercase;
@@ -156,6 +157,7 @@ input[type="tilmeld"]:hover {
 
 .p5 {
   letter-spacing: 1.5px;
+  margin-right: 1em;
   font-family: "Roboto", sans-serif;
 }
 /*Her styles footeren til mobile*/
@@ -328,6 +330,10 @@ a {
   .news-container {
     display: flex;
     padding: 0 0 30px 30px;
+  }
+  .Heading3 {
+    margin-top: 5%;
+    margin-left: 3em;
   }
   input[type="tilmeld"] {
     margin-left: -17%;
