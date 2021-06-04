@@ -7,6 +7,9 @@ body {
   padding: 0;
   background-color: #f7efeb;
 }
+header {
+  display: none;
+}
 /* Nyhedsbrev popup https://www.youtube.com/watch?v=BJrObOFv1_o */
 .container {
   margin: 0;
@@ -211,6 +214,7 @@ a {
 @media only screen and (min-width: 1000px) {
   /*Menu lavet af Mila*/
   header {
+    display: inline;
     margin-top: 1.5%;
     text-transform: uppercase;
   }
