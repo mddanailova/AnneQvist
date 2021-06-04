@@ -112,6 +112,7 @@ h1 {
   margin-left: 10%;
   font-family: 'Tinos', serif;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .tekst {
@@ -282,6 +283,7 @@ h2 {
   margin: 3% 0 3% 20%;
   font-family: 'Tinos', serif;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 footer a {
