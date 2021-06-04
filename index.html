@@ -1,86 +1,282 @@
 <!DOCTYPE html>
-<html lang="da">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Mila Danailova">
-  <title>Om os | Anne Qvist</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-  <header>
-    <div class="ikon">
-    <a class="headerikon" href="https://www.facebook.com/mila.danailova/">
-    <img src="./billeder/facebook.png" alt="facebook" style="width:1.8%">
-    </a>
-    <a class="headerikon" href="https://www.instagram.com/mila.danailova/">
-    <img src="./billeder/insta.png" alt="instagram" style="width:1.8%">
-    </a>
-    </div>
-
-  <form class="search-box">
-    <input type="text" placeholder=" " />
-    <button type="reset"></button>
-  </form>
-    <h1 class="headertekst">Anne Qvist</h1>
-    <p class="headerundertekst">House of fashion</p>
-    <hr />
-    <nav>
-    <a class="headerlink" href="https://www.facebook.com/mila.danailova/">
-    OM OS
-  </a>
-  <a class="headerlink" href="https://www.instagram.com/mila.danailova/">
-    BRANDS
-    </a>
-  <a class="headerlink" href="https://www.instagram.com/mila.danailova/">
-    KONTAKT
-    </a>
-    </nav>
-  </header>
-
-
-  <footer>
-    <div class="rowfooter">
-      <div class="columnfooter">
-        <h2>Kontakt</h2>
-        <p>Anne Qvist</p>
-        <p>Ordrupvej 87</p>
-        <p>2920 Chatlottenlund</p>
-        <p><strong>CVR-nr.:</strong> 1242352523</p>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Tøj til kvinder, MAX MARA, PIU PIU, PERSONA, Kvindetøj, Tøj, Mærkevarer, Fashion, Mode, High end, Kvalitet "
+    />
+    <meta
+      name="desription"
+      content="Anne Qvist er en ekslusiv tøjbutik med et stort udvalg af tøjprodukter og mærkevarer. Vi leverer god service og høj kvalitet"
+    />
+    <meta name="author" content="Guardians Records" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+    <title>ANNE QVIST HOUSE OF FASHION</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Menu lavet af Mila-->
+    <header>
+      <div class="ikon">
+        <a
+          class="headerikon"
+          href="https://www.facebook.com/anneqvistmode"
+          target="_blank"
+        >
+          <img src="jpg/facebook.png" alt="facebook" />
+        </a>
+        <a
+          class="headerikon"
+          href="https://www.instagram.com/anneqvistmode/"
+          target="_blank"
+        >
+          <img src="jpg/insta.png" alt="instagram" />
+        </a>
       </div>
 
-      <div class="columnfooter">
-      <h2>Åbningstider</h2>
-      <p><strong>Mandag - Fredag:</strong> 10:00 til 17:30</p>
-      <p><strong>Lørdag: </strong>10:00 til 14:00</p>
-      <p><strong>Søndag:</strong> Lukket</p>
-      </div>
-
-      <div class="columnfooter">
-        <h2>Social</h2>
-        <a href="https://www.facebook.com/mila.danailova/">
-        <img src="./billeder/facebook.png" alt="facebook" style="width:7%">Facebook
+      <a href="http://tobyqvist.dk/Anneqvist">
+        <h1 class="headertekst">Anne Qvist</h1>
       </a>
-      <br>
-      <a href="https://www.instagram.com/mila.danailova/">
-          <img src="./billeder/insta.png" alt="instagram" style="width:7%"> Instagram
+      <p class="headerundertekst">House of fashion</p>
+      <hr />
+
+      <nav class="topnav" id="myTopnav">
+        <h2 class="menu">Menu</h2>
+        <a class="headerlink" href="http://miladanailova.dk/AnneQvist/">
+          Om os
         </a>
-      <br>
-      <a href="https://www.instagram.com/mila.danailova/">
-          <img src="./billeder/telefon.png" alt="instagram" style="width:7%"> 39 63 93 71
+        <a class="headerlink" href="http://andonovska.dk/anneqvist/">
+          Brands
         </a>
-      <br>
-      <a href="https://www.instagram.com/mila.danailova/">
-          <img src="./billeder/mail.png" alt="instagram" style="width:7%"> anneqvist@gmail.com
+        <a class="headerlink" href="http://multidesigner.dk/AnneQvist/">
+          Kontakt
         </a>
-      <br>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+    <!--Menu slut-->
+
+    <!--(Tobias)Nyhedsbrev popUp lavet ud fra tutorial fra youtube: https://www.youtube.com/watch?v=BJrObOFv1_o-->
+    <div class="container">
+      <div class="modal-container" id="modal-container">
+        <div class="modal" id="modal">
+          <button class="close-btn" id="close">
+            <i class="fa fa-times"></i>
+          </button>
+          <div class="modal-content">
+            <div class="header">
+              <h2 class="logo">Nyhedsbrev</h2>
+              <p class="tagline">Vil du modtage de seneste nyheder</p>
+              <p>
+                Bliv medlem og modtag fremover vores nyhedsbrev med eksklusive
+                tilbud, personlige anbefalinger, nye produkter og meget mere!
+              </p>
+            </div>
+            <form>
+              <input type="text" placeholder="Din e-mail" />
+              <button class="subscribe">subscribe</button>
+            </form>
+            <div class="social-media">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-facebook"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </footer>
+    <!--Nyhedsbrev popup slut-->
 
+    <!--(Tobias)Slideshow lavet ud fra tutorial fra youtube: https://www.youtube.com/watch?v=0wvrlOyGlq0&t=107s-->
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+        <div class="slide first">
+          <img src="jpg/slide1.png" alt="Slideshow1" />
+        </div>
+        <div class="slide">
+          <img src="jpg/slide2.png" alt="Slideshow2" />
+        </div>
+        <div class="slide">
+          <img src="jpg/slide3.png" alt="Slideshow3" />
+        </div>
+        <div class="slide">
+          <img src="jpg/slide4.png" alt="Slideshow4" />
+        </div>
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
 
+    <!--Slideshow slut-->
 
-</body>
+    <!--(Tobias)Tre brands med billede-->
+    <div class="brands">
+      <div class="persona">
+        <img class="brand" src="jpg/persona.png" alt="Persona" />
+      </div>
+      <div class="maxmara">
+        <img class="brand" src="jpg/maxmara.png" alt="WeekendMaxMara" />
+      </div>
+      <div class="piupiu">
+        <img class="brand" src="jpg/piupiu.png" alt="PIU&PIU" />
+      </div>
+    </div>
+    <!--tre brands med billede slut-->
+
+    <!--(Tobias)Kort uddrag af tekst og billede fra om os og kontakt-->
+    <div class="omosuddrag">
+      <div class="gridtekst1">
+        <h2 class="overskrift">Velkommen</h2>
+        <p class="brødtekst">
+          Vi er en familie ejet virksomhed, som startede for 31 år siden. Det
+          startede med Fila sportstøj, men gik så over i at blive rent dametøj i
+          stedet for. Butikken er startet op af Anne Qvist og er nu ejet af mig
+          Louise Qvist som har overtaget den efter et planlagt
+          generationsskifte. Vi er en dametøjsbutik med lækre mærker fra
+          Italien. Butikken startede i 1989 og ligger på Ordrupvej 87. Personlig
+          betjening er noget af det vi lægger stor vægt på, og vi elsker at
+          hjælpe kunderne med at finde det helt rigtige, der passer dem. Vi gør
+          os meget umage med at vælge vores varer ud, så de passer til vores
+          kunder og ikke er noget de finder alle steder.
+        </p>
+      </div>
+      <div class="gridbillede1">
+        <img
+          class="omosbillede1"
+          src="jpg/omosbillede1.png"
+          alt="PotrætBillede"
+        />
+      </div>
+      <div class="gridbillede2">
+        <img class="omosbillede2" src="jpg/omosbillede2.png" alt="ToPersoner" />
+      </div>
+      <div class="gridbillede3">
+        <img class="omosbillede3" src="jpg/omosbillede3.png" alt="Sko" />
+      </div>
+      <div class="gridbillede4">
+        <img class="omosbillede4" src="jpg/omosbillede4.png" alt="Kjole" />
+      </div>
+      <div class="gridtekst2">
+        <p class="brødtekst2">
+          Vi gør en stor indsats i at hjælpe dig. Kontakt os enten via telefon:
+          +45 39 63 93 71, mail:Anneqvist@gmail.com eller genenm vores
+          chatfunktion, hvis du har spørgsmål eller brug for hjælp. Vi glæder os
+          til at høre fra dig.
+        </p>
+        <p class="brødtekst3">Åbningstider:</p>
+        <p class="brødtekst3">Hverdage: 10 - 17:30</p>
+        <p class="brødtekst3">Lørdag: 10 - 14</p>
+        <p class="brødtekst3">Søndag: lukket</p>
+      </div>
+    </div>
+    <!--Kort uddrag af tekst og billede fra om os 0g kontakt slut-->
+
+    <!--Her starter nyhedsbrev-->
+    <section class="news-container">
+      <div class="flex">
+        <h2 class="Heading3">Tilmed dig vores nyhedsbrev</h2>
+        <p class="p5">
+          Bliv medlem af vores klub og modtag fremover vores nyhedsbrev med
+          ekslusive tilbud, personlige anbefalinger, nye produkter og meget
+          mere!
+        </p>
+      </div>
+      <div class="flex">
+        <form>
+          <label for="email"></label>
+          <input
+            type="email"
+            id="email"
+            name="mail"
+            placeholder="Skriv din e-mail her"
+          />
+          <input type="button" value="TILMELD DIG" />
+        </form>
+      </div>
+    </section>
+
+    <!--Nyhedsbrev bunden slut-->
+
+    <!--(Mila)Footer-->
+    <footer>
+      <div class="rowfooter">
+        <div class="columnfooter">
+          <h2 class="Heading">Kontakt</h2>
+          <p class="text">Anne Qvist</p>
+          <p class="text">Ordrupvej 87</p>
+          <p class="text">2920 Chatlottenlund</p>
+          <p class="text"><strong>CVR-nr.:</strong> 1242352523</p>
+        </div>
+
+        <div class="columnfooter">
+          <h2 class="Heading">Åbningstider</h2>
+          <p class="text"><strong>Mandag - Fredag:</strong> 10:00 til 17:30</p>
+          <p class="text"><strong>Lørdag: </strong>10:00 til 14:00</p>
+          <p class="text"><strong>Søndag:</strong> Lukket</p>
+        </div>
+
+        <div class="columnfooter">
+          <h2 class="Heading">Social</h2>
+          <a href="https://www.facebook.com/anneqvistmode" target="_blank">
+            <img
+              src="jpg/facebook.png"
+              alt="facebook"
+              style="width: 7%"
+            />Facebook
+          </a>
+          <br />
+          <a href="https://www.instagram.com/anneqvistmode/" target="_blank">
+            <img src="jpg/insta.png" alt="" style="width: 7%" />
+            Instagram
+          </a>
+          <br />
+          <a href="https://www.facebook.com/anneqvistmode" target="_blank">
+            <img src="jpg/telefon.png" alt="telefon" style="width: 7%" />
+            39 63 93 71
+          </a>
+          <br />
+          <a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            target="_blank"
+          >
+            <img src="jpg/mail.png" alt="mail" style="width: 7%" />
+            anneqvist@gmail.com
+          </a>
+          <br />
+        </div>
+      </div>
+    </footer>
+    <!--Footer slut-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
